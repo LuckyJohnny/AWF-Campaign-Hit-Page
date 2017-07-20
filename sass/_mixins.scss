@@ -1,0 +1,7 @@
+@mixin center-block($width) {
+margin:3em auto;
+width: $width;
+}
+@mixin border($x, $line, $color){
+  border: $x $line $color;
+}

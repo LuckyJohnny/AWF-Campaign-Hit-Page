@@ -1,0 +1,19 @@
+/* Walk
+------------------------------------------*/
+
+
+
+.cover {
+  animation: walk 6s steps(6, end) forwards;
+}
+.is-paused {
+  animation-play-state: paused;
+}
+
+@keyframes walk {
+
+
+  to {
+    transform: translateX(1920px);
+  }
+}

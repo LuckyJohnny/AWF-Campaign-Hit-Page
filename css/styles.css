@@ -1,0 +1,465 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_navigation\.scss}line{font-family:\000031}}
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_navigation\.scss}line{font-family:\0000310}}
+.nav-collapse li {
+  width: 100%;
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_navigation\.scss}line{font-family:\0000315}}
+.nav-collapse a {
+  background-color: transparent;
+  display: block;
+  text-align: center;
+  padding: .7em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_navigation\.scss}line{font-family:\0000324}}
+.nav-collapse a:hover, .nav-collapse a:focus {
+  color: #FFCEA9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_navigation\.scss}line{font-family:\0000328}}
+.js .nav-collapse {
+  clip: transparent;
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_navigation\.scss}line{font-family:\0000337}}
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_navigation\.scss}line{font-family:\0000341}}
+.nav-toggle {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  background-image: url(../images/hamburger.svg);
+  width: 32px;
+  height: 32px;
+  float: left;
+  /*hide text*/
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-right: 6%;
+}
+
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_navigation\.scss}line{font-family:\0000361}}
+  .js .nav-collapse {
+    position: relative;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_navigation\.scss}line{font-family:\0000364}}
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+
+  /*hide the hamburger*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_navigation\.scss}line{font-family:\0000368}}
+  .nav-toggle {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_navigation\.scss}line{font-family:\0000372}}
+  .nav-collapse {
+    background: transparent;
+  }
+
+  /*bring back hamburger*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_navigation\.scss}line{font-family:\0000376}}
+  .nav-collapse ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1080px;
+    border-top: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_navigation\.scss}line{font-family:\0000384}}
+  .nav-collapse li {
+    border-right: 0px solid #eeeeee;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_navigation\.scss}line{font-family:\0000387}}
+  .nav-collapse li:first-child {
+    border-left: 0px solid #eeeeee;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_navigation\.scss}line{font-family:\0000390}}
+  .nav-collapse a {
+    border-bottom: none;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\000031}}
+body {
+  background: url(../images/backtext.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #963205;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\0000310}}
+header,
+.container, .container2 {
+  margin: 3em auto;
+  width: 88%;
+  max-width: 1080px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\0000317}}
+.we-need-you {
+  border: 5px emboss black;
+  background-image: url(../images/lionback6small.png);
+  width: 100%;
+  min-height: 233px;
+  border-top: 5px solid black;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media screen and (min-width: 415px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\0000328}}
+  .we-need-you {
+    background-image: url(../images/lionback6.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 1080px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\0000336}}
+.wrapper {
+  background: #ffffff;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\0000341}}
+header {
+  font-weight: 500;
+  font-style: bold;
+  min-height: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\0000347}}
+.logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 1em 1em 1em 1em;
+  position: relative;
+  left: 4%;
+  bottom: 78%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\0000356}}
+.first {
+  background: url(../images/filmstrip5.png);
+  width: 100%;
+  min-height: 140px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media screen and (min-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\0000365}}
+  .first {
+    background: url(../images/filmstrip4.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 300px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\0000374}}
+.second {
+  min-height: 600px;
+  background: rgba(222, 212, 180, 0.2);
+  margin: 5em 0 0 0;
+  border-left: 10px solid #1d1911;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\0000381}}
+.third {
+  min-height: 500px;
+  background: url(../images/donate.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin: 5em 0 0 0;
+  border-right: 10px solid #1d1911;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\0000390}}
+.fourth {
+  min-height: 300px;
+  min-width: 300px;
+  margin: 5em 0 0 1em;
+  padding: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\0000397}}
+.donation {
+  width: 88%;
+  min-height: 100px;
+  padding-top: 3em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\00003105}}
+.fifth {
+  min-height: 150px;
+  margin: 5.5em 0 3em 0;
+  padding-top: .7em;
+  border-bottom: 5px double #1d1911;
+  border-top: 5px double #1d1911;
+  background: rgba(222, 212, 180, 0.1);
+}
+
+@media screen and (min-width: 48em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\00003122}}
+  .container, .footprints, .container2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\00003127}}
+  .second {
+    width: 60%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\00003130}}
+  .third {
+    width: 40%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\00003133}}
+  .fourth {
+    width: 70%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\00003136}}
+  h2 {
+    font-size: 16px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\00003139}}
+  .fifth {
+    width: 40%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\00003149}}
+.footprints {
+  width: 96.6%;
+  height: 100px;
+  position: relative;
+  background: #1d1911;
+  overflow: hidden;
+  padding: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\00003159}}
+.pawprints {
+  background: url(../images/paws3.png);
+  width: 100%;
+  min-height: 100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\00003165}}
+.cover {
+  position: absolute;
+  bottom: 0px;
+  height: 100px;
+  width: 100%;
+  background: #1d1911;
+  padding: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_typography\.scss}line{font-family:\000031}}
+body {
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_typography\.scss}line{font-family:\000036}}
+h2 {
+  color: #860926;
+  font-size: 100px;
+  font-family: impact;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_typography\.scss}line{font-family:\0000313}}
+p {
+  font-size: 24px;
+  font-family: helvetica;
+  color: orange;
+  text-align: center;
+  text-shadow: 2px 2px rgba(255, 0, 0, 0.5);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_typography\.scss}line{font-family:\0000322}}
+u {
+  color: #860926;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_typography\.scss}line{font-family:\0000325}}
+h3 {
+  color: #860926;
+  font-size: 50px;
+  font-family: impact;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\000031}}
+a {
+  color: orange;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\000036}}
+a:hover {
+  color: #ffb733;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\0000310}}
+.input {
+  display: block;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 2em 0 0 0;
+  padding: 2em 0 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\0000318}}
+.social-channels {
+  list-style: none;
+  /*getting rid of bullet pnts*/
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\0000328}}
+.social-channels li {
+  padding: .5em;
+  margin: .5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\0000333}}
+.social-channels a {
+  width: 32px;
+  height: 32px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-radius: 3px;
+  -webkit-transition: .2s;
+  transition: .2s;
+  /*HideText*/
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\0000347}}
+.social-channels a:hover {
+  opacity: .7;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\0000351}}
+.facebook {
+  background-image: url(../images/facebook.svg);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\0000355}}
+.twitter {
+  background-image: url(../images/twitter.svg);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\0000359}}
+.youtube {
+  background-image: url(../images/youtube.svg);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\0000364}}
+.googleplus {
+  background-image: url(../images/googleplus.svg);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\0000369}}
+.instagram {
+  background-image: url(../images/instagram.svg);
+}
+
+/* Walk
+------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_animation\.scss}line{font-family:\000036}}
+.cover {
+  -webkit-animation: walk 6s steps(6, end) forwards;
+  animation: walk 6s steps(6, end) forwards;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_animation\.scss}line{font-family:\000039}}
+.is-paused {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+@-webkit-keyframes walk {
+  to {
+    -webkit-transform: translateX(1920px);
+    transform: translateX(1920px);
+  }
+}
+
+@keyframes walk {
+  to {
+    -webkit-transform: translateX(1920px);
+    transform: translateX(1920px);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

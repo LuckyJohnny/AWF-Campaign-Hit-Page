@@ -1,0 +1,172 @@
+body {
+  background: url(../images/backtext.png);
+  background-size: cover;
+  color: $color-text;
+
+
+}
+
+
+header,
+.container, .container2
+ {
+  @include center-block(88%);
+  max-width: 1080px;
+}
+
+.we-need-you {
+  @include border(5px, emboss, black);
+  background-image: url(../images/lionback6small.png);
+  width:100%;
+  min-height: 233px;
+  border-top: 5px solid black;
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
+
+  @media screen and (min-width:415px) {
+    .we-need-you {
+      background-image: url(../images/lionback6.png);
+      background-size: cover;
+      min-height:1080px;
+    }
+  }
+
+
+.wrapper {
+  background: #ffffff;
+  padding: 0;
+}
+
+header {
+  font-weight: 500;
+  font-style: bold;
+  min-height: 100px;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em 1em 1em 1em;
+  position: relative;
+  left: 4%;
+  bottom:78%;
+}
+
+.first {
+  background: url(../images/filmstrip5.png);
+  width:100%;
+  min-height:140px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+  @media screen and (min-width: 900px) {
+    .first {
+      background: url(../images/filmstrip4.png);
+      background-size:cover;
+      min-height: 300px;
+
+
+    }
+  }
+
+.second {
+  min-height: 600px;
+  background: rgba(222, 212, 180, .2);
+  margin: 5em 0 0 0;
+  border-left: 10px solid #1d1911;
+}
+
+.third {
+  min-height: 500px;
+  background: url(../images/donate.png);
+  background-size: cover;
+  margin: 5em 0 0 0;
+  border-right: 10px solid #1d1911;
+
+}
+
+.fourth {
+  min-height: 300px;
+  min-width: 300px;
+  margin: 5em 0 0 1em;
+  padding:1em;
+}
+
+.donation {
+ width:88%;
+ min-height:100px;
+ padding-top:3em;
+
+}
+
+
+.fifth {
+  min-height: 150px;
+  margin: 5.5em 0 3em 0;
+  padding-top: .7em;
+  border-bottom: 5px double #1d1911;
+  border-top: 5px double #1d1911;
+  background: rgba(222, 212, 180, .1);
+
+
+
+
+}
+
+
+
+
+@media screen and (min-width: 48em){
+  .container, .footprints, .container2 {
+  display: flex;
+  justify-content: center;
+}
+
+  .second {
+    width:60%;
+  }
+  .third {
+    width:40%;
+  }
+  .fourth {
+    width: 70%;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .fifth {
+    width: 40%;
+  }
+
+
+}
+
+
+
+
+.footprints {
+  width: 96.6%;
+  height: 100px;
+  position: relative;
+  background: #1d1911;
+  overflow: hidden;
+  padding:1em;
+
+}
+
+.pawprints {
+  background: url(../images/paws3.png);
+  width: 100%;
+  min-height: 100px;
+}
+
+.cover {
+  position:absolute;
+  bottom: 0px;
+  height: 100px;
+  width: 100%;
+  background: #1d1911;
+  padding: 1em;
+}

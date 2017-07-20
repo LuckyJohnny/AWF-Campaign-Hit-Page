@@ -1,0 +1,94 @@
+.nav-collapse ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+
+}
+
+.nav-collapse li {
+  width: 100%;
+  display: block;
+}
+
+.nav-collapse a {
+  background-color: transparent;//#cccccc;
+  display: block;
+  text-align: center;
+  padding: .7em 0;
+
+
+}
+
+.nav-collapse a:hover, .nav-collapse a:focus {
+  color: #FFCEA9;
+}
+
+.js .nav-collapse {
+  clip: transparent;//rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  background-image: url(../images/hamburger.svg);
+  width: 32px;
+  height: 32px;
+  float: left;
+  /*hide text*/
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-right: 6%;
+}
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+    /*hide the hamburger*/
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-collapse {
+    background: transparent;//#cccccc;
+  }
+  /*bring back hamburger*/
+  .nav-collapse ul {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1080px;
+    border-top: none;
+
+  }
+  .nav-collapse li {
+    border-right: 0px solid #eeeeee;
+  }
+  .nav-collapse li:first-child {
+    border-left: 0px solid #eeeeee;
+  }
+  .nav-collapse a {
+    border-bottom: none;
+  }
+
+}
