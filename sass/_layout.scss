@@ -46,9 +46,14 @@ header {
 }
 
 .logo {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 1em 1em 1em 3em;
+  margin: 1em auto;
+  display:block;
+}
+
+@media screen and (min-width:48em) {
+  .logo {
+    margin:1em 1em 1em 3em;
+  }
 }
 
 .first {
@@ -59,21 +64,17 @@ header {
   background-position: center center;
 }
 
-  @media screen and (min-width: 900px) {
-    .first {
-      background: url(../images/filmstrip4.png);
-      background-size:cover;
-      min-height: 300px;
 
-
-    }
-  }
 
 .second {
   min-height: 600px;
   background: rgba(222, 212, 180, .2);
   margin: 5em 0 0 0;
   border-left: 10px solid #1d1911;
+}
+
+.second h2 {
+  font-size:77px;
 }
 
 .third {
@@ -87,16 +88,17 @@ header {
 
 .fourth {
   min-height: 300px;
-  min-width: 300px;
-  margin: 5em 0 0 1em;
-  padding:1em;
+  // min-width: 300px;
+  // margin: 5em 0 0 1em;
+  // padding:1em;
 }
 
 .donation {
  width:88%;
  min-height:100px;
- padding-top:3em;
-
+ padding-top:13em;
+margin:0 auto;
+display:block;
 }
 
 
@@ -107,17 +109,23 @@ header {
   border-bottom: 5px double #1d1911;
   border-top: 5px double #1d1911;
   background: rgba(222, 212, 180, .1);
+}
 
-
-
-
+@media screen and (min-width: 900px) {
+  .first {
+    background: url(../images/filmstrip4.png);
+    background-size:cover;
+    min-height: 300px;
+  }
+  .second h2 {
+    font-size:100px;
+  }
 }
 
 
 
-
-@media screen and (min-width: 48em){
-  .container, .footprints, .container2 {
+@media screen and (min-width: 415px){
+ .container, .footprints, .container2 {
   display: flex;
   justify-content: center;
 }
@@ -131,9 +139,7 @@ header {
   .fourth {
     width: 70%;
   }
-  h2 {
-    font-size: 16px;
-  }
+
   .fifth {
     width: 40%;
   }
