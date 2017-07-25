@@ -175,7 +175,7 @@ header {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\0000359}}
 .first {
-  background: url(../images/filmstrip5.png);
+  background: url(../images/filmstrip7.png);
   width: 100%;
   min-height: 140px;
   background-repeat: no-repeat;
@@ -224,15 +224,15 @@ header {
   min-height: 150px;
   margin: 5.5em 0 3em 0;
   padding-top: .7em;
-  border-bottom: 5px double #1d1911;
-  border-top: 5px double #1d1911;
+  border-bottom: 7px solid #1d1911;
+  border-top: 7px solid #1d1911;
   background: rgba(222, 212, 180, 0.1);
 }
 
 @media screen and (min-width: 900px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_layout\.scss}line{font-family:\00003115}}
   .first {
-    background: url(../images/filmstrip4.png);
+    background: url(../images/filmstrip6.png);
     -webkit-background-size: cover;
     background-size: cover;
     min-height: 300px;
@@ -413,27 +413,27 @@ a:hover {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\0000351}}
 .facebook {
-  background-image: url(../images/facebook.svg);
+  background-image: url(../images/facebook.png);
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\0000355}}
 .twitter {
-  background-image: url(../images/twitter.svg);
+  background-image: url(../images/twitter.png);
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\0000359}}
 .youtube {
-  background-image: url(../images/youtube.svg);
+  background-image: url(../images/youtube.png);
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\0000364}}
 .googleplus {
-  background-image: url(../images/googleplus.svg);
+  background-image: url(../images/google.png);
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/845871467\/Desktop\/Campaign\/sass\/_link\.scss}line{font-family:\0000369}}
 .instagram {
-  background-image: url(../images/instagram.svg);
+  background-image: url(../images/instagram.png);
 }
 
 /* Walk

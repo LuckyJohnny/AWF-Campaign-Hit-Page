@@ -57,7 +57,7 @@ header {
 }
 
 .first {
-  background: url(../images/filmstrip5.png);
+  background: url(../images/filmstrip7.png);
   width:100%;
   min-height:140px;
   background-repeat: no-repeat;
@@ -106,14 +106,14 @@ display:block;
   min-height: 150px;
   margin: 5.5em 0 3em 0;
   padding-top: .7em;
-  border-bottom: 5px double #1d1911;
-  border-top: 5px double #1d1911;
+  border-bottom: 7px solid #1d1911;
+  border-top: 7px solid #1d1911;
   background: rgba(222, 212, 180, .1);
 }
 
 @media screen and (min-width: 900px) {
   .first {
-    background: url(../images/filmstrip4.png);
+    background: url(../images/filmstrip6.png);
     background-size:cover;
     min-height: 300px;
   }
