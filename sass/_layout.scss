@@ -50,6 +50,7 @@ header {
   display:block;
 }
 
+
 @media screen and (min-width:48em) {
   .logo {
     margin:1em 1em 1em 3em;
@@ -87,18 +88,23 @@ header {
 }
 
 .fourth {
-  min-height: 300px;
+min-height: 300px;
   // min-width: 300px;
   // margin: 5em 0 0 1em;
   // padding:1em;
+  background-image: url(../images/vulture2.jpg);
+  background-size: cover;
+  background-position: 45% 45%;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
 }
 
 .donation {
  width:88%;
  min-height:100px;
- padding-top:13em;
-margin:0 auto;
-display:block;
+ padding-top:20em;
+ margin: 0 auto;
+ display:block;
 }
 
 
@@ -108,7 +114,9 @@ display:block;
   padding-top: .7em;
   border-bottom: 7px solid #1d1911;
   border-top: 7px solid #1d1911;
-  background: rgba(222, 212, 180, .1);
+  background-image: url(../images/africa-map4.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 @media screen and (min-width: 900px) {
@@ -120,6 +128,18 @@ display:block;
   .second h2 {
     font-size:100px;
   }
+
+
+  .donation {
+  width:88%;
+  padding-top: 40em;
+  margin: 0 auto;
+  display:block;
+}
+
+
+
+
 }
 
 
@@ -130,6 +150,7 @@ display:block;
   justify-content: center;
 }
 
+
   .second {
     width:60%;
   }
@@ -137,11 +158,11 @@ display:block;
     width:40%;
   }
   .fourth {
-    width: 70%;
+    width: 60%;
   }
 
   .fifth {
-    width: 40%;
+    width: 50%;
   }
 
 

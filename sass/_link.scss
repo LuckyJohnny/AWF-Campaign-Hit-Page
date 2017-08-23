@@ -12,16 +12,20 @@ a:hover {
   justify-content: space-between;
   margin: 2em 0 0 0;
   padding: 2em 0 0 0;
+  bottom: 6%;
+  left: 0;
 }
 
 
 .social-channels {
   list-style: none;
   /*getting rid of bullet pnts*/
-  padding:0;
+  padding:1em;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  
+
 
 }
 
@@ -41,6 +45,8 @@ a:hover {
   text-indent: 110%;
   white-space: nowrap;
   overflow: hidden;
+  bottom: 6%;
+  left: 0;
 
 }
 
@@ -71,5 +77,6 @@ a:hover {
 }
 
 @media screen and (min-width: 40em) {
- .social-channels { }
+ .social-channels {
+  }
 }
